@@ -10,4 +10,4 @@ my_collect(array)
   collect
 end
 
-my_collect(list) {|i| i.split(" ").first}
+
