@@ -1,4 +1,4 @@
-require "pry"
+
 
 my_collect(array)
   i = 0
@@ -9,5 +9,5 @@ my_collect(array)
   end
   collect
 end
-binding.pry
+
 my_collect(list) {|i| i.split(" ").first}
