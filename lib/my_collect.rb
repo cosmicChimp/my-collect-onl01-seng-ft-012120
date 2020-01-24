@@ -1,13 +1,16 @@
-list = ["Mike","Mary", "Jim"]
+list = ["Tim Jones", "Bob Costas", "Don Knotts"]
 
-my_collect(array)
+
+def my_collect(array)
   i = 0
-  collect = []
+  name_collection = []
   while i < array.length
-    collect << yield(array[i])
+    name_collection.push yield(array[i])
+  # you could also do it this way:
+  # name_collection << yield(array[i])
     i += 1
   end
-  collect
+  name_collection
 end
 
 my_collect(list) {|i| i.split(" ").first}
