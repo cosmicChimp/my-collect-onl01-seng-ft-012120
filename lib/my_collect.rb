@@ -10,4 +10,4 @@ my_collect(array)
   collect
 
 binding.pry
-my_collect(list) {|i| i.split(" ") i.first}
+my_collect(list) {|i| i.split(" ").first}
