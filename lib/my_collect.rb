@@ -1,4 +1,4 @@
-
+list = ["Mike","Mary", "Jim"]
 
 my_collect(array)
   i = 0
@@ -10,4 +10,4 @@ my_collect(array)
   collect
 end
 
-
+my_collect(list) {|i| i.split(" ").first}
