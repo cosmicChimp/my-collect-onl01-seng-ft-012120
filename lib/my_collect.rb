@@ -1,4 +1,4 @@
-
+require "pry"
 
 my_collect(array)
   i = 0
