@@ -8,6 +8,6 @@ my_collect(array)
     i += i + 1
   end
   collect
-end
+
 binding.pry
 my_collect(list) {|i| i.split(" ") i.first}
